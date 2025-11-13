@@ -1,1 +1,2 @@
-
+# Ignore only auto-generated package metadata
+ligotools.egg-info/
