@@ -1,3 +1,4 @@
+Add Makefile with environment setup, local HTML build, and cleanup targets
 # =========================================================
 # Makefile — STAT 159 HW3: LOSC Event Tutorial
 # Purpose: Environment setup, MyST site build, and cleanup
