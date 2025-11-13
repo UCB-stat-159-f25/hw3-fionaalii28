@@ -1,0 +1,20 @@
+AI Tool Used: ChatGPT (OpenAI)
+
+Purpose of Use:
+ChatGPT was used as a support tool for clarification and debugging throughout the homework process. While the course website and lab materials (particularly Lab 7 and Lab 8) already provided clear guidance for setting up MyST, Binder, and GitHub Pages, certain steps in the workflow required additional explanation when errors or unexpected behavior occurred.
+
+How It Was Used:
+To clarify instructions and terminology from the homework description or MyST documentation.
+To understand error messages and determine how to fix issues with myst.yml, binder links, or the Makefile.
+To confirm best practices for structuring commits, writing test cases, and verifying MyST builds.
+To troubleshoot runtime or dependency issues when certain steps (e.g., myst build --html or Binder rendering) were not running smoothly.
+To ensure reproducibility and clarity, such as verifying that all notebook paths were correctly updated to use the data/, figures/, and audio/ folders.
+
+Example Prompts / Inputs and Outputs:
+Prompt: “My MyST site builds locally but the binder link doesn’t open — what does this mean and how do I fix it?”
+Output: ChatGPT explained that Binder may still point to an older commit and suggested updating the myst.yml Binder URL or repushing recent changes to the repo.
+Prompt: “Why does my Makefile return ‘no rule to make target env’?”
+Output: ChatGPT clarified that Makefiles must be located in the project’s root directory and that the syntax of .PHONY targets should match the assignment structure.
+
+Reflection:
+The AI tool was mainly used for clarification and troubleshooting, not for writing code or solving statistical concepts. Most steps followed directly from course material and class demonstrations (especially Lab 7 on MyST setup). ChatGPT helped ensure a smooth workflow when errors occurred or when specific configurations needed to match course expectations. Overall, it was used as a learning and guidance resource, helping confirm understanding and resolve technical issues efficiently.
