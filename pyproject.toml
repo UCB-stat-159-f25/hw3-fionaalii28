@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=70", "numpy>=2.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+description = "LIGO utilities from the LOSC tutorial for Stat 159 HW3."
+readme = "README.md"
+
+requires-python = ">=3.9"
+
+authors = [
+  { name = "LIGO Scientific Collaboration (LSC)" },
+  { name = "Fiona Li" },
+  { email = "fionawl2004@berkeley.edu" }
+]
+
+dependencies = [
+    "numpy==2.0",
+    "scipy==1.13",
+    "h5py==3.12",
+    "matplotlib==3.9",
+    "ipykernel==6.29"
+]
+
+license = "BSD-3-Clause"
+license-files = ["LICEN[CS]E*"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/fionaalii28/hw3-fionaalii28"
+Issues   = "https://github.com/fionaalii28/hw3-fionaalii28/issues"
+
+[tool.setuptools]
+packages = ["ligotools"]
+
+[tool.setuptools.dynamic]
+version = { attr = "ligotools.__version__" }

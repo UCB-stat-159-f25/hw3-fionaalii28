@@ -1,0 +1,23 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+
+project:
+  id: 5e06071b-ca55-4199-9db5-a1a3d99df7ee
+  title: "Stat 159 HW3: LOSC Event Tutorial"
+  description: "This project reproduces a real LIGO gravitational-wave detection, demonstrating how raw strain data is cleaned, filtered, and transformed into meaningful astrophysical insights through signal processing and statistical modeling."
+  authors:
+    - name: "LIGO Scientific Collaboration (LSC)"
+    - name: "Fiona Li"
+      email: "fionali@berkeley.edu"
+  github: https://github.com/fionaalii28/hw3-fionaalii28
+  binder: https://mybinder.org/v2/gh/fionaalii28/hw3-fionaalii28/HEAD
+
+  toc:
+    - file: index.md
+      title: "Home"
+    - file: LOSC_Event_tutorial.ipynb
+      title: "LOSC Event Tutorial"
+
+site:
+  template: book-theme
+  options: {}
